@@ -15,10 +15,8 @@
     <DebugType>pdbonly</DebugType>
   </PropertyGroup>
   <ItemGroup>
-		<PackageReference Include="RazorEngine.NetCore.ZuLiang" Version="2.2.3.6" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Grammophone.TemplateRendering\Grammophone.TemplateRendering.csproj" />
+    <ProjectReference Include="..\RazorEngine\RazorEngine.NetCore\RazorEngine.NetCore.csproj" />
   </ItemGroup>
 	<ItemGroup>
 		<None Remove=".git" />
